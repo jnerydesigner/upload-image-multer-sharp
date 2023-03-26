@@ -1,0 +1,27 @@
+{
+  "name": "aula-criada",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev ./src/main.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.15.10",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "hbs": "^4.2.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.0",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-handlebars": "^6.0.0",
+    "@types/hbs": "^4.0.1",
+    "@types/multer": "^1.4.7",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
